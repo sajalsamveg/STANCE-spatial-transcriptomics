@@ -37,7 +37,7 @@ graph on spot coordinates, matching Visium's hexagonal geometry.
 ## How to run
 
 **Option A — Colab (recommended, no setup)**  
-Open the notebook directly: [stance_edges.ipynb on Colab](YOUR_COLAB_LINK)
+Open the notebook directly: [stance_edges.ipynb on Colab](https://colab.research.google.com/drive/1Nj5hxrTq3sDp38iSdCsPGc-XY_-i2GVa?usp=sharing)
 
 **Option B — Local**
 
@@ -50,3 +50,15 @@ The notebook auto-downloads the Visium dataset via Squidpy.
 Synthetic experiment: ~30 seconds. Real Visium experiment: 2–5 minutes on CPU.
 
 ## Repo structure
+
+STANCE-spatial-transcriptomics/
+├── stance_edges.ipynb   
+├── requirements.txt
+└── README.md
+
+## References
+
+- Beck & Teboulle (2009) — FISTA
+- Candès & Recht (2009) — Matrix completion via convex optimisation  
+- Palla et al. (2022) — Squidpy
+- Wolf et al. (2018) — Scanpy
